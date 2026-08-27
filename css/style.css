@@ -251,6 +251,22 @@ section:first-of-type { border-top: none; }
 }
 .tag-row span::before { content: "#"; color: var(--accent); }
 
+.card .downloads {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+.card .downloads a {
+  font-family: var(--mono);
+  font-size: 0.85rem;
+  color: var(--fg-dim);
+  direction: rtl;
+  text-align: right;
+}
+.card .downloads a:hover { color: var(--accent); }
+.card .downloads a::after { content: " ↓"; color: var(--accent); }
+
 /* ---------- experience timeline ---------- */
 
 .timeline {

@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Your Name — Software Engineer</title>
-<meta name="description" content="Portfolio and blog of Your Name, Software Engineer.">
+<title>Elad Sayag</title>
+<meta name="description" content="Personal site of Elad Sayag, M.S. in Mathematics. Interests: number theory, algebraic geometry, algebraic topology, geometric group theory, representation theory.">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%230a0e17%22/><text x=%2250%22 y=%2266%22 font-size=%2255%22 text-anchor=%22middle%22 fill=%22%235eead4%22 font-family=%22monospace%22>&gt;_</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,7 +15,7 @@
 
 <header class="site">
   <nav>
-    <a href="index.html" class="logo">&gt;_ <span class="accent">your_name</span></a>
+    <a href="index.html" class="logo">&gt;_ <span class="accent">elad_sayag</span></a>
     <div class="links">
       <a href="#about">about</a>
       <a href="#projects">projects</a>
@@ -29,137 +29,127 @@
 <main class="wrap">
 
   <section class="hero" id="top">
-    <div class="kicker">hello, world</div>
-    <h1>Your Name</h1>
-    <h2>Software Engineer</h2>
+    <div class="kicker">welcome</div>
+    <h1>Elad Sayag</h1>
+    <h2>Mathematics MSc</h2>
     <p class="lead">
-      I build things for the web — currently focused on
-      <strong>your area of focus</strong> (e.g. backend systems, ML, frontend, whatever fits).
-      This is placeholder text: edit <code>index.html</code> to make it yours.
+      ... 
     </p>
+    <!--
+      EDIT: the "read the blog" link used to live here as a third button.
+      Per your call, it's been dropped from this row so the hero stays
+      focused on two actions — it's still reachable any time via the
+      "blog" link in the nav bar above.
+    -->
     <div class="cta-row">
       <a class="btn primary" href="#projects">view projects</a>
-      <a class="btn ghost" href="blog.html">read the blog</a>
       <a class="btn ghost" href="#contact">get in touch</a>
     </div>
   </section>
 
+  <!--
+    EDIT ME — About section.
+    Replace the three <p> paragraphs below with your own bio: 2-3 short
+    paragraphs covering who you are, what draws you to these fields, and
+    what you're currently working on (thesis topic, courses, reading).
+    The .skills list on the right is a tag cloud — swap in whatever's
+    actually true for you: languages/tools (LaTeX, Python, SageMath...)
+    and/or subject areas you're strong in. Add or remove <span class="skill-tag">
+    entries freely, there's no fixed number.
+  -->
   <section id="about">
     <div class="section-title"><span class="num">01.</span> about <span class="line"></span></div>
     <div class="about-grid">
       <div>
         <p>
-          Write a short bio here — who you are, what you work on, and what
-          you're interested in. Two or three short paragraphs is plenty.
+          [Your bio, paragraph 1 — who you are, what you're studying, and
+          what pulled you toward these areas of math.]
+        </p> 
+        <p>
+          I have a hobby of math olympiad problems and I like making 
+          higher math feel like an extension of problem solving.
         </p>
         <p>
-          Mention your background, current role or studies, and anything
-          you're currently learning or excited about. Keep it conversational.
-        </p>
-        <p>
-          Swap this section out entirely if you'd rather link to a full
-          resume/CV PDF instead.
+          I like to learn new stuff outside of math - currently studying data-science and physics.
         </p>
       </div>
       <div class="skills">
-        <span class="skill-tag">JavaScript</span>
-        <span class="skill-tag">Python</span>
-        <span class="skill-tag">TypeScript</span>
-        <span class="skill-tag">React</span>
-        <span class="skill-tag">Node.js</span>
-        <span class="skill-tag">SQL</span>
-        <span class="skill-tag">Git</span>
-        <span class="skill-tag">Docker</span>
+        <span class="skill-tag">Number theory</span>
+        <span class="skill-tag">Algebraic geometry</span>
+        <span class="skill-tag">Algebraic topology</span>
+        <span class="skill-tag">Geometric group theory</span>
+        <span class="skill-tag">Representation theory</span>
       </div>
     </div>
   </section>
 
+  <!--
+    EDIT ME — Projects section.
+    Each <article class="card"> is one item — could be a research project,
+    an expository writeup, code, a reading group, whatever you want to
+    showcase. Duplicate/delete <article> blocks freely (not locked to 3).
+    The "code"/"live" links can point anywhere (GitHub, a PDF, arXiv, a
+    live demo) or be deleted if there's nothing to link. tag-row entries
+    are free text — use them for topics or tools, e.g. <span>topology</span>.
+  -->
   <section id="projects">
     <div class="section-title"><span class="num">02.</span> projects <span class="line"></span></div>
     <div class="project-grid">
 
       <article class="card">
         <div class="card-head">
-          <h3>Project One</h3>
+          <h3>Poisson-boundaries entropy and ultralimits</h3>
           <div class="links">
-            <a href="#">code</a>
-            <a href="#">live</a>
+            <a href="https://arxiv.org/abs/2202.06607" target="_blank" rel="noopener">arxiv</a>
+            <a href="https://doi.org/10.4171/GGD/887" target="_blank" rel="noopener">journal</a>
+            <a href="https://arxiv.org/abs/2204.11112" target="_blank" rel="noopener">follow-up</a>
           </div>
         </div>
         <p class="desc">
-          One or two sentences describing what this project does, the problem
-          it solves, and your role in building it.
+          My master thesis under the supervision of Yehuda Shalom - on establishing a ultralimit construction for amenable group actions via Poisson boundaries with
+          applications to minimizing entropy on such actions.
         </p>
         <div class="tag-row">
-          <span>react</span><span>node</span><span>postgres</span>
+          <span>topic</span><span>topic</span>
         </div>
       </article>
 
       <article class="card">
         <div class="card-head">
-          <h3>Project Two</h3>
-          <div class="links">
-            <a href="#">code</a>
-            <a href="#">live</a>
-          </div>
+          <h3>Lecture Notes on Intermediate Math</h3>
         </div>
         <p class="desc">
-          One or two sentences describing what this project does, the problem
-          it solves, and your role in building it.
+          Hebrew-language lecture notes on intermediate-level math topics,
+          written for the math olympiad team I taught.
         </p>
         <div class="tag-row">
-          <span>python</span><span>flask</span><span>docker</span>
+          <span>hebrew</span><span>olympiad</span><span>number theory</span>
         </div>
-      </article>
-
-      <article class="card">
-        <div class="card-head">
-          <h3>Project Three</h3>
-          <div class="links">
-            <a href="#">code</a>
-            <a href="#">live</a>
-          </div>
-        </div>
-        <p class="desc">
-          One or two sentences describing what this project does, the problem
-          it solves, and your role in building it.
-        </p>
-        <div class="tag-row">
-          <span>typescript</span><span>next.js</span><span>tailwind</span>
+        <div class="downloads">
+          <a href="assets/lectures/mordell-weil.pdf" download>הרצאת מורדל וייל (PDF)</a>
+          <a href="assets/lectures/pell-equations.pdf" download>משוואות פל (PDF)</a>
+          <a href="assets/lectures/thue-theorem.pdf" download>הרצאה לרותם על משפט Thue (PDF)</a>
         </div>
       </article>
 
     </div>
   </section>
 
+  <!--
+    EDIT ME — Experience / education section.
+    Each .timeline-item is one entry (job, degree, TA position, whatever).
+    Duplicate/delete freely, and reorder so the most recent is first.
+  -->
   <section id="experience">
     <div class="section-title"><span class="num">03.</span> experience <span class="line"></span></div>
     <div class="timeline">
 
       <div class="timeline-item">
-        <div class="when">2024 — now</div>
+        <div class="when">[2015 — 2021]</div>
         <div>
-          <h3>Company Name</h3>
-          <div class="role">Job Title</div>
-          <p>What you did, what you shipped, impact you had. Keep each entry to two or three lines.</p>
-        </div>
-      </div>
-
-      <div class="timeline-item">
-        <div class="when">2022 — 2024</div>
-        <div>
-          <h3>Previous Company</h3>
-          <div class="role">Job Title</div>
-          <p>What you did, what you shipped, impact you had. Keep each entry to two or three lines.</p>
-        </div>
-      </div>
-
-      <div class="timeline-item">
-        <div class="when">2018 — 2022</div>
-        <div>
-          <h3>University Name</h3>
-          <div class="role">Degree, Field of Study</div>
-          <p>Relevant coursework, honors, or projects worth mentioning.</p>
+          <h3>Tel-Aviv university</h3>
+          <div class="role">Student</div>
+          <p>B.Sc. and M.Sc. in Mathematics via 'Beno Arbel program'</p>
         </div>
       </div>
 
@@ -169,12 +159,18 @@
   <section id="contact">
     <div class="section-title"><span class="num">04.</span> contact <span class="line"></span></div>
     <p>
-      Best way to reach me is email. I'm also around on the usual places below.
+    Email: elad.sayag2003@gmail.com
     </p>
+    <!--
+      EDIT: github/linkedin links below are still placeholders — point
+      them at your real profiles, or delete the <a> tags you don't want.
+      A phone number was deliberately left off: public HTML gets scraped
+      by bots, and a phone number there mostly just invites spam calls.
+      If you want one listed, put it on a downloadable CV/resume PDF
+      instead and link that here.
+    -->
     <div class="contact-links">
-      <a class="btn primary" href="mailto:you@example.com">email me</a>
-      <a class="btn ghost" href="https://github.com/yourusername" target="_blank" rel="noopener">github</a>
-      <a class="btn ghost" href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener">linkedin</a>
+      <a class="btn primary" href="mailto:elad.sayag2003@gmail.com">email me</a>
     </div>
   </section>
 

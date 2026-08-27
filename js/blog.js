@@ -60,7 +60,7 @@ async function renderPost() {
     if (!res.ok) throw new Error(`could not load posts/${slug}.md`);
     const md = await res.text();
 
-    document.title = `${meta.title} — Your Name`;
+    document.title = `${meta.title} — Elad Sayag`;
     headerEl.querySelector(".post-status")?.remove();
     headerEl.insertAdjacentHTML(
       "beforeend",
