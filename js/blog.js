@@ -21,7 +21,7 @@ async function renderPostList() {
     posts.sort((a, b) => (a.date < b.date ? 1 : -1));
 
     if (posts.length === 0) {
-      listEl.innerHTML = '<p class="post-status">no posts yet — add one to posts/index.json</p>';
+      listEl.innerHTML = '<p class="post-status">nothing here yet — first post coming soon.</p>';
       return;
     }
 
