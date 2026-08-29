@@ -305,6 +305,8 @@ section:first-of-type { border-top: none; }
   margin-bottom: 0.4rem;
 }
 .timeline-item p { color: var(--fg-dim); font-size: 0.95rem; }
+.timeline-item p a { color: var(--accent); border-bottom: 1px solid #2dd4bf55; }
+.timeline-item p a:hover { border-bottom-color: var(--accent); }
 
 /* ---------- blog ---------- */
 
