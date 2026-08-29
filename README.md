@@ -6,7 +6,7 @@ homepage plus a Markdown-based blog.
 ## Structure
 
 ```
-index.html        home page (hero, about, projects, experience, contact)
+index.html        home page (hero, about, projects, lectures, education, contact)
 blog.html         blog index (reads posts/index.json)
 post.html         single post view (reads posts/<slug>.md)
 css/style.css     all styling (dark theme, CSS variables at the top)
@@ -19,7 +19,7 @@ posts/*.md        post content, one file per post
 ## Editing content
 
 - **Your info**: edit the placeholder text directly in `index.html`
-  (name, role, bio, skills, projects, experience, contact links/email).
+  (name, role, bio, skills, projects, lectures, education, contact links/email).
 - **New blog post**: add a Markdown file to `posts/`, then add a matching
   entry to the top of `posts/index.json`. See `posts/welcome-to-my-blog.md`
   for a worked example of supported Markdown syntax.
